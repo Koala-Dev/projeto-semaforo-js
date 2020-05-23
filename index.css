@@ -1,0 +1,62 @@
+#semaforo{
+    margin-left: 40%;
+}
+#caixa_semaforo {
+    margin-left:15px ;
+    width: 100px;
+    height: 200px;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+#vermelho{
+    background-color: gray;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* box-shadow: 0px 0px 44px -7px rgb(196, 43, 43); */
+}
+#amarelo{
+    background-color: gray;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* box-shadow: 0px 0px 44px -7px rgb(206, 246, 25); */
+    margin-bottom: 4px;
+}
+
+#verde{
+    background-color: gray;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* box-shadow: 0px 0px 44px -7px rgba(130,196,43,1); */
+}
+
+#combo {
+    display: flex;
+    flex-direction: row;
+}
+
+#letras {
+    margin-top: 84px;
+    margin-bottom: 74px;
+}
+
+#pare {
+    color: white;
+    margin-top: 30px;
+}
+#atencao {
+    color: white;
+    margin-top: 48px;
+}
+#prossiga{
+    color: white;
+    margin-top: 42px;
+}
