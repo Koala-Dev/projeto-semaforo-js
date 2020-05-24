@@ -14,7 +14,7 @@ function sinalverde(){
     document.querySelector('#pare').style.color="white"
     document.querySelector('#atencao').style.color="white"
     document.querySelector('#prossiga').style.color="black"
-    count = 12 
+    count = 5
     tempo = count*1000
     setTimeout(sinalamarelo,tempo)
 }
@@ -24,7 +24,7 @@ function sinalamarelo(){
     document.querySelector('#pare').style.color="white"
     document.querySelector('#atencao').style.color="black"
     document.querySelector('#prossiga').style.color="white"
-    count = 3
+    count = 2
     tempo = count*1000
     setTimeout(sinalvermelho,tempo)
 }
@@ -34,7 +34,7 @@ function sinalvermelho(){
     document.querySelector('#pare').style.color="black"
     document.querySelector('#atencao').style.color="white"
     document.querySelector('#prossiga').style.color="white"
-    count = 6
+    count = 4
     tempo = count*1000
     setTimeout(sinalverde,tempo)
 }
