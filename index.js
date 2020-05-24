@@ -7,7 +7,7 @@ function iniciarSemaforo(){
     sinalverde()
 }
 function sinalverde(){
-    sinal_vermelho.style.backgroundColor = '#808080'
+    sinal_vermelho.style.backgroundColor = "#808080"
     sinal_vermelho.style.boxShadow = '0px 0px 44px -10px rgb(196, 43, 43, 0)'
     sinal_verde.style.backgroundColor= 'green'
     sinal_verde.style.boxShadow= '0px 0px 44px -10px rgba(130,196,43,1)'
